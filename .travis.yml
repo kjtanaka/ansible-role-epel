@@ -10,4 +10,4 @@ install:
   - pip install ansible
 
 script:
-  - ansible-playbook -i inventory test.yml
+  - ansible-playbook -i inventory test.yml --syntax-check
