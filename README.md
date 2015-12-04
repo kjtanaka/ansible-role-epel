@@ -17,3 +17,6 @@ MIT License
 ## Author
 
 Koji Tanaka - RDI2
+
+[travis-url]: https://travis-ci.org/kjtanaka/ansible-role-epel
+[travis-image]: https://travis-ci.org/kjtanaka/ansible-role-epel.svg?branch=master
