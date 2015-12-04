@@ -1,6 +1,6 @@
 ---
 
-- name: 'python role test'
+- name: 'epel role test'
   hosts: test
   sudo: yes
   roles:
