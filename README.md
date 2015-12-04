@@ -1,5 +1,5 @@
-Ansible Role - kjtanaka.epel
-============================
+Ansible Role - kjtanaka.epel [![Build Status][travis-image]][travis-url]
+=========================================================================
 
 This role installs EPEL repository on CentOS box.
 
