@@ -2,13 +2,21 @@
 
 This role installs EPEL repository on CentOS box.
 
-## Example Playbook
+## Usage
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+Install the role with ansible-galaxy:
 
-    - hosts: servers
-      roles:
-         - { role: kjtanaka.epel }
+```bash
+ansible-galaxy install kjtanaka.epel
+```
+
+Include the role like this:
+
+```yaml
+- hosts: servers
+  roles:
+    - { role: kjtanaka.epel }
+```
 
 ## License
 
