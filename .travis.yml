@@ -11,4 +11,3 @@ install:
 
 script:
   - ansible-playbook -i inventory test.yml
-  #- ansible-playbook -i travis-ci-inventory travis-ci-test.yml
