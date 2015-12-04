@@ -1,5 +1,5 @@
-Ansible Role - epel
-==================
+Ansible Role - kjtanaka.epel
+============================
 
 This role installs EPEL repository on CentOS box.
 
@@ -18,5 +18,5 @@ License
 MIT License
 
 Author
----------
+------
 Koji Tanaka - RDI2
