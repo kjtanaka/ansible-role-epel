@@ -2,5 +2,6 @@
 
 - name: 'python role test'
   hosts: test
+  sudo: yes
   roles:
     - '.'

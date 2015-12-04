@@ -1,2 +1,12 @@
 ---
 # tasks file for epel
+
+# Python bindings for selinux are necessary for some ansible actions
+- name: selinux python bindings
+  yum: name=libselinux-python state=present
+
+- name: add epel repo
+  copy: src=epel.repo dest=/etc/yum.repos.d/epel.repo owner=root group=root mode=0644
+
+- name: add repo key
+  copy: src=RPM-GPG-KEY-EPEL-6 dest=/etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6 owner=root group=root mode=0644
