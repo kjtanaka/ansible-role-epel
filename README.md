@@ -1,10 +1,8 @@
-Ansible Role - kjtanaka.epel [![Build Status][travis-image]][travis-url]
-=========================================================================
+# Ansible Role - kjtanaka.epel [![Build Status][travis-image]][travis-url]
 
 This role installs EPEL repository on CentOS box.
 
-Example Playbook
-----------------
+## Example Playbook
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
@@ -12,11 +10,10 @@ Including an example of how to use your role (for instance, with variables passe
       roles:
          - { role: kjtanaka.epel }
 
-License
--------
+## License
 
 MIT License
 
-Author
-------
+## Author
+
 Koji Tanaka - RDI2
